@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!181963792 &2655988077585873504
+Preset:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: brickspawner
+  m_TargetType:
+    m_NativeTypeID: 114
+    m_ManagedTypePPtr: {fileID: 11500000, guid: 95fbdb6e54c5e724985d4bb67e239057, type: 3}
+    m_ManagedTypeFallback: 
+  m_Properties:
+  - target: {fileID: 0}
+    propertyPath: m_Enabled
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorHideFlags
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorClassIdentifier
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: regbrick
+    value: 
+    objectReference: {fileID: 7736565030385913566, guid: 75652db6126578046986d7651c77cfa9, type: 3}
+  - target: {fileID: 0}
+    propertyPath: hardbrick
+    value: 
+    objectReference: {fileID: 706115666571455514, guid: 2cd86ba58d4fc714f93e55b0a4c1641c, type: 3}
+  - target: {fileID: 0}
+    propertyPath: pointmultibrick
+    value: 
+    objectReference: {fileID: 6671255679241654068, guid: 53386d6a1f827134da366849060faadc, type: 3}
+  - target: {fileID: 0}
+    propertyPath: powerbrick
+    value: 
+    objectReference: {fileID: 1775632440308726239, guid: e0823e3feb909df4089b27d57a60df14, type: 3}
+  m_ExcludedProperties: []

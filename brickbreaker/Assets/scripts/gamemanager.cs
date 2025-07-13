@@ -23,6 +23,7 @@ public class NewBehaviourScript : MonoBehaviour
     private void Awake()
     {
         DontDestroyOnLoad(this.gameObject);
+        
 
 
     }
@@ -30,17 +31,21 @@ public class NewBehaviourScript : MonoBehaviour
     {
         // get number between 1 and 2
         randomNumber = Random.Range(1, 3);
-        SCORE.text = " ";
-        lives.text = "";
+
+   
 
         Newgame();
     }
     public void Newgame()
     {
+        
+        randomNumber = Random.Range(1, 3);
         this.lifes = 3;
         this.score = 0;
         this.count = 20;
         this.wins = 0;
+        SCORE.text = "Score: " + this.score.ToString();
+        lives.text = "Lives: " + this.lifes.ToString();
 
         loadlevel(randomNumber);
 
@@ -81,6 +86,7 @@ public class NewBehaviourScript : MonoBehaviour
            // load game over scene
            lives.text = "";
             SceneManager.LoadScene("gameover");
+            // Destroy the game manager object to prevent it from persisting across scenes
         }
     }
 
